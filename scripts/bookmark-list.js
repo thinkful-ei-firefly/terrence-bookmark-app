@@ -1,6 +1,6 @@
 'use strict';
 
-/* global store */
+/* global store,$,api */
 
 const bookmarkList = (function() {
   function generateBookmarkElement(obj) {
@@ -16,7 +16,7 @@ const bookmarkList = (function() {
         </span>
         <span class="bookmark-url">${desc}</span>
         <button class="bookmark-toggle">COLLAPSE</button>
-        <button class="bookmark-delete">REMOVE</button>
+        <button class="bookmark-delete">Delete</button>
       </li>`;
     } else {
       return `

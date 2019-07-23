@@ -1,6 +1,6 @@
 'use strict';
 
-/* global bookmarkList, store, api */
+/* global bookmarkList, $,store, api */
 
 const main = function() {
   bookmarkList.bindEventListeners();
