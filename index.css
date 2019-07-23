@@ -1,53 +1,66 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  button, input[type="text"] {
-    padding: 5px;
-  }
-  
-  button:hover {
-    cursor: pointer;
-  }
-  
-  button:hover:disabled {
-    cursor: default;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  #bookmark-list-item {
-    width: 250px;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .bookmark-list {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .bookmark-list > li {
-    margin-bottom: 20px;
-    border: 1px solid grey;
-    padding: 20px;
-  }
-  
-  .bookmark-item {
-    display: block;
-    color: grey;
-    font-style: italic;
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-  
- 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 320px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+header {
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.filter, .add-new {
+  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+form label {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+}
+
+legend, input, textarea {
+  margin-left: 10px;
+}
+
+.add-new-button {
+  padding: 10px;
+}
+
+form button {
+  padding: 10px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid gray;
+}
+
+li span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+li button {
+  padding: 10px;
+}
