@@ -191,19 +191,21 @@ a {
     margin: 0 auto;
     width: 100%;
   }
-  /*
-  * A grid can do this math for you!
-  */
+  
   .bookmark-list {
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
     
   }
-  /*
-   * targeting every other '.box' to add a right margin
-   */
+  
   .bookmark-list:nth-child(odd) {
     margin-right: 6%;
+  }
+
+  .form {
+	  margin: 0 auto;
+	  text-align: center;
+	  width: 40%;
   }
 }
