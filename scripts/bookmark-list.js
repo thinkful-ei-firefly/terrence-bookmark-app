@@ -12,7 +12,7 @@ const bookmarkList = (function() {
         <span class="bookmark-title">${title}</span>
         <span class="bookmark-rating">Rating: ${rating} of 5</span>
         <span class="bookmark-url">
-        <a href="${url}">${url}</a>
+        <a href="${url}">Visit Site</a>
         </span>
         <span class="bookmark-url">${desc}</span>
         <button class="bookmark-toggle">COLLAPSE</button>
@@ -24,7 +24,7 @@ const bookmarkList = (function() {
         <span class="bookmark-title">${title}</span>
         <span class="bookmark-rating">Rating: ${rating} of 5</span>
         <button class="bookmark-toggle">DETAILS</button>
-        <button class="bookmark-delete">REMOVE</button>
+        <button class="bookmark-delete">Delete</button>
       </li>`;
     }
   }
