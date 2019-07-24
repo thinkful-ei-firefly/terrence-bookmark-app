@@ -44,29 +44,29 @@ const bookmarkList = (function() {
       $('form').html(`
         <fieldset>
           <legend>Add A New Bookmark</legend>
-          <label for="title">
-            Title: 
-            <input type="text" name="title" id="title" required>
-            </label>
-          <label for="url">
-            URL: 
-            <input type="url" name="url" id="url" required>
-          </label>
-          <label for="rating">
-            Rating: 
-            <input type="number" name="rating" id="rating" min="1" max="5" required>
-          </label>
-          <label for="description">
-            Description: 
-            <textarea name="description" id="description" required></textarea>
-          </label>
-          <button type="submit">ADD</button>
+          <div>
+          <label for='title'> Title:</label>            
+            <input type='text' name='title' id='title' required>
+          </div>
+          <div>
+          <label for='url'> URL:</label>            
+            <input type='url' name='url' id='url' required>
+          </div>
+          <div>
+          <label for="rating"> Rating:</label>            
+            <input type='number' name='rating' id='rating' min='1' max='5' required>
+          </div>
+          <div>
+          <label for='description'> Description: </label>            
+            <textarea name='description' id='description' required></textarea>
+         </div>
+         <div> <button class='add-new-button' type='submit'>ADD</button></div>
           </fieldset>
       `);
     } else {
       $('form').empty();
-      $('.add-new').html(`<div class="add-new">
-      <button class="add-new-button">Add New Bookmark</button>
+      $('.add-new').html(`<div class='add-new'>
+      <button class='add-new-button'>Add New Bookmark</button>
     </div>`);
     }
     $('.js-bookmark-list').html(bookmarksString);
