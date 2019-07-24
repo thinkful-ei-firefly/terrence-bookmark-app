@@ -8,12 +8,19 @@ body {
   width: 320px;
   margin: 0 auto;
   font-size: 16px;
+  background-image: url(images/library.jpg);
+  color: whitesmoke;
 }
 
 header {
   margin: 10px;
   padding-top: 10px;
   padding-bottom: 5px;
+}
+
+h1 {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
 }
 
 .filter, .add-new {
@@ -32,6 +39,9 @@ legend, input, textarea {
   margin-left: 10px;
 }
 
+.js-bookmark-element {
+  background-color: rgba(76, 175, 80, 0.3);
+}
 .add-new-button {
   padding: 10px;
 }
@@ -63,4 +73,8 @@ li span {
 
 li button {
   padding: 10px;
+}
+
+a {
+  color: whitesmoke;
 }

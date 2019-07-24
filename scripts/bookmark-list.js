@@ -10,7 +10,7 @@ const bookmarkList = (function() {
       return `
       <li class="js-bookmark-element" data-bookmark-id="${id}">
         <span class="bookmark-title">${title}</span>
-        <span class="bookmark-rating">${rating}</span>
+        <span class="bookmark-rating">Rating: ${rating} of 5</span>
         <span class="bookmark-url">
         <a href="${url}">${url}</a>
         </span>
@@ -22,7 +22,7 @@ const bookmarkList = (function() {
       return `
       <li class="js-bookmark-element" data-bookmark-id="${id}">
         <span class="bookmark-title">${title}</span>
-        <span class="bookmark-rating">${rating}</span>
+        <span class="bookmark-rating">Rating: ${rating} of 5</span>
         <button class="bookmark-toggle">DETAILS</button>
         <button class="bookmark-delete">REMOVE</button>
       </li>`;
